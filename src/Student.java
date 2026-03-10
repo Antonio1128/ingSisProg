@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Object {
     private int nrMatricol;
     private String prenume;
     private String nume;
@@ -12,7 +12,4 @@ public class Student {
         this.formatiedeStudiu = formatiedeStudiu;
     }
 
-    public String toString() {
-        return "nr matricol: " + nrMatricol + "\n" + "prenume: " + prenume + "\n" + "nume: " + nume + "\n" + "formatie de studiu: " + formatiedeStudiu;
-    }
 }
