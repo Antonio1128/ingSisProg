@@ -17,7 +17,7 @@ public class  Main {
         {
             x.add(rand.nextInt(11));
         }
-        for (int i =0;i<5;i++)
+        for (int i =0;i<7;i++)
         {
             y.add(rand.nextInt(11));
         }
@@ -25,3 +25,4 @@ public class  Main {
         xPlusY.addAll(y);
     }
 }
+
