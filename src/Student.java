@@ -4,6 +4,17 @@ public class Student extends Object {
     private String nume;
     private String formatiedeStudiu;
 
+    public String getPrenume() {
+        return prenume;
+    }
+
+    public String getNume() {
+        return nume;
+    }
+
+    public String getFormatiedeStudiu() {
+        return formatiedeStudiu;
+    }
 
     public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu) {
         this.nrMatricol = nrMatricol;
@@ -11,5 +22,7 @@ public class Student extends Object {
         this.nume = nume;
         this.formatiedeStudiu = formatiedeStudiu;
     }
-
+    public String toString() {
+        return nrMatricol + " " + prenume + " " + nume + " " + formatiedeStudiu;
+    }
 }
