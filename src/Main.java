@@ -1,25 +1,28 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
 
 
-    public static boolean existaStudent(List<Student> lista , Student s)
-    {
-    for(Student student :lista )
-    {
-        if (student.getNume().equals(s.getNume()) && student.getPrenume().equals(s.getPrenume()) && student.getFormatiedeStudiu().equals(s.getFormatiedeStudiu()))
+    /* public static boolean existaStudent(List<Student> lista , Student s)
+     {
+     for(Student student :lista )
+     {
+         if (student.getNume().equals(s.getNume()) && student.getPrenume().equals(s.getPrenume()) && student.getFormatiedeStudiu().equals(s.getFormatiedeStudiu()))
 
-        return true;
-    }
-      return false;
-}
+         return true;
+     }
+       return false;
+ }*/
     public static void main(String[] args) {
 
         Student s1 = new Student(591, "Antonio", "Popelca", "ISM21/1");
-      //  System.out.println(s1);
+        //  System.out.println(s1);
 
-        List<Student> listaStudenti = new ArrayList<>();
+
+    /*    List<Student> listaStudenti = new ArrayList<>();
 
         listaStudenti.add(new Student(596, "Sergiu ", "Tanase", "ISM21/1"));
         listaStudenti.add(new Student(242, "Claudiu", "Stefan", "ISM21/1"));
@@ -29,11 +32,20 @@ public class Main {
             System.out.println(s);
         }
         Student s2 = new Student(120, "Alis", "Popa", "TI21/2");
-        System.out.println("Prezent? Alis Popa? " + existaStudent(listaStudenti, s2));
+        System.out.println("Prezent:Alis Popa? " + existaStudent(listaStudenti, s2));
 
         Student s3 = new Student(112, "Maria", "Popa", "TI21/1");
-        System.out.println("Prezent: Maria Popa? " + existaStudent(listaStudenti, s3));
+        System.out.println("Prezent Maria Popa? " + existaStudent(listaStudenti, s3));
+    }*/
+        Set<Student> setStudenti = new HashSet();
+        setStudenti.add(new Student(596, "Sergiu ", "Tanase", "ISM21/1"));
+        setStudenti.add(new Student(242, "Claudiu", "Stefan", "ISM21/1"));
+        setStudenti.add(new Student(112, "Maria", "Popa", "TI21/1"));
+
+        Student s2 = new Student(120, "Alis", "Popa", "TI21/2");
+        System.out.println("Prezent Alis Popa?"+setStudenti.contains(s2));
+
+        Student s3 = new Student(112, "Maria", "Popa", "TI21/1");
+        System.out.println("Prezent Maria Popa?"+setStudenti.contains(s3));
     }
-
 }
-

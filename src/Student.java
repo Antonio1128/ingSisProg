@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Student extends Object {
     private int nrMatricol;
     private String prenume;
@@ -16,7 +18,8 @@ public class Student extends Object {
         return formatiedeStudiu;
     }
 
-    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu) {
+    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu)
+    {
         this.nrMatricol = nrMatricol;
         this.prenume = prenume;
         this.nume = nume;
@@ -25,4 +28,22 @@ public class Student extends Object {
     public String toString() {
         return nrMatricol + " " + prenume + " " + nume + " " + formatiedeStudiu;
     }
+    public boolean equals(Object o)
+    {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+
+        Student student = (Student) o;
+
+        return prenume.equals(student.prenume) &&
+                nume.equals(student.nume) &&
+                formatiedeStudiu.equals(student.formatiedeStudiu);
+    }
+
+
+    public int hashCode() {
+
+        return Objects.hash(prenume, nume, formatiedeStudiu);
+    }
 }
+
