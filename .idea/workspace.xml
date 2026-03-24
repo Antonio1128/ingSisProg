@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Casa Laborator 3" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Casa Laborator 3">
+      <change afterPath="$PROJECT_DIR$/src/Laborator4/AppLab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator4/Tanar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Lab2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/students_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/students_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/students_out_sorted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/students_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/students_in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/students_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/students_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/students_out_sorted.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/students_out_sorted.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +69,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3AQMn35Ib2uKuZYEPI3XT0CLbHX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AppLab4.executor": "Run",
     "Application.Lab2.Main.executor": "Run",
     "Application.Lab2.executor": "Run",
     "Application.Lab3.executor": "Run",
@@ -80,7 +103,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\src\Laborator1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Laborator1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppLab4">
+    <configuration name="AppLab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator4.AppLab4" />
+      <module name="ingSis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Laborator4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.Lab2" />
       <module name="ingSis" />
@@ -122,7 +166,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Laborator1.Main" />
       <module name="ingSis" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,6 +174,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppLab4" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab3" />
         <item itemvalue="Application.Laborator2.Main" />
@@ -158,7 +203,7 @@
       <workItem from="1773232963683" duration="4840000" />
       <workItem from="1773647162360" duration="2700000" />
       <workItem from="1773727485726" duration="6906000" />
-      <workItem from="1774307760714" duration="3184000" />
+      <workItem from="1774307760714" duration="8522000" />
     </task>
     <task id="LOCAL-00001" summary="Laborator 2">
       <option name="closed" value="true" />

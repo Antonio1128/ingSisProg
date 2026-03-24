@@ -1,12 +1,12 @@
+package Laborator1;
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Main {
 
@@ -55,7 +55,7 @@ public class Main {
 
         */
 //3.5.2
-        String continut = new String(Files.readAllBytes(Paths.get("src/students_in.txt")));
+        String continut = new String(Files.readAllBytes(Paths.get("src/Laborator1/students_in.txt")));
         String[] linii = continut.split("\n");
 
         List<Student> studenti = new ArrayList<>();
@@ -78,7 +78,7 @@ public class Main {
         studenti.sort(( a, b) -> a.getNume().compareTo(b.getNume()));
 
 
-        Path outputPath = Paths.get("src/students_out.txt");
+        Path outputPath = Paths.get("src/Laborator1/students_out.txt");
         try (BufferedWriter writer = Files.newBufferedWriter(outputPath)) {
             for (Student s : studenti) {
                 writer.write(s.toString());
@@ -97,7 +97,7 @@ public class Main {
         });
 
 
-        Path outputPath2 = Paths.get("src/students_out_sorted.txt");
+        Path outputPath2 = Paths.get("src/Laborator1/students_out_sorted.txt");
         try (BufferedWriter writer = Files.newBufferedWriter(outputPath2)) {
             for (Student s : studenti) {
                 writer.write(s.toString());

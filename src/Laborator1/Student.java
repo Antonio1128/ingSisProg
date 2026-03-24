@@ -1,3 +1,5 @@
+package Laborator1;
+
 import java.util.Objects;
 
 public class Student extends Object {
