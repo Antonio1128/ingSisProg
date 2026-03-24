@@ -18,6 +18,10 @@ public class Student extends Object {
         return formatiedeStudiu;
     }
 
+    public int getNrMatricol() {
+        return nrMatricol;
+    }
+
     public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu)
     {
         this.nrMatricol = nrMatricol;
@@ -37,7 +41,7 @@ public class Student extends Object {
 
         return prenume.equals(student.prenume) &&
                 nume.equals(student.nume) &&
-                formatiedeStudiu.equals(student.formatiedeStudiu);
+                formatiedeStudiu.equals(student.formatiedeStudiu) && nrMatricol==student.nrMatricol;
     }
 
 
