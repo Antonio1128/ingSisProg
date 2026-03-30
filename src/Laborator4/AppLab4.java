@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class AppLab4 {
-    static void main() {
+    static void main(String[] args) {
         HashMap<String, Integer> varste = new HashMap<>();
         varste.put("Ioan", 21);
         varste.put("Maria", 22);

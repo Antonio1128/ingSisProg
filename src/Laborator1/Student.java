@@ -7,6 +7,12 @@ public class Student extends Object {
     private String prenume;
     private String nume;
     private String formatiedeStudiu;
+    private float nota;
+
+
+
+
+    public float getNota(){return nota;}
 
     public String getPrenume() {
         return prenume;
@@ -32,7 +38,7 @@ public class Student extends Object {
         this.formatiedeStudiu = formatiedeStudiu;
     }
     public String toString() {
-        return nrMatricol + " " + prenume + " " + nume + " " + formatiedeStudiu;
+        return nrMatricol + " " + prenume + " " + nume + " " + formatiedeStudiu+" "+nota;
     }
     public boolean equals(Object o)
     {
@@ -41,15 +47,18 @@ public class Student extends Object {
 
         Student student = (Student) o;
 
-        return prenume.equals(student.prenume) &&
-                nume.equals(student.nume) &&
-                formatiedeStudiu.equals(student.formatiedeStudiu) && nrMatricol==student.nrMatricol;
+        return nrMatricol == student.getNrMatricol();
     }
 
+    public void setNota(float nota)
+    {
+        this.nota=nota;
+
+    }
 
     public int hashCode() {
 
-        return Objects.hash(prenume, nume, formatiedeStudiu);
+        return Objects.hash(nrMatricol);
     }
 }
 
