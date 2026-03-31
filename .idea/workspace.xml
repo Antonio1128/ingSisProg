@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Laborator 4">
-      <change afterPath="$PROJECT_DIR$/src/Laborator1/applab4_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator1/note_anon.txt" afterDir="false" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Casa Laborator 4">
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/IntCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator4/AppLab4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator4/AppLab4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator4/AppLab4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator4/AppLab4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AppLab4.executor": "Run",
+    "Application.AppLab5.executor": "Run",
     "Application.Lab2.Main.executor": "Run",
     "Application.Lab2.executor": "Run",
     "Application.Lab3.executor": "Run",
@@ -100,7 +99,7 @@
       <recent name="Laborator1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.applab4_2">
+  <component name="RunManager" selected="Application.AppLab5">
     <configuration name="AppLab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laborator4.AppLab4" />
       <module name="ingSis" />
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Laborator3.Lab3" />
+    <configuration name="AppLab5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator5.AppLab5" />
       <module name="ingSis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Laborator3.*" />
+          <option name="PATTERN" value="Laborator5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Laborator2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Laborator2.Main" />
+    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator3.Lab3" />
       <module name="ingSis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Laborator2.*" />
+          <option name="PATTERN" value="Laborator3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppLab5" />
         <item itemvalue="Application.applab4_2" />
         <item itemvalue="Application.AppLab4" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab3" />
-        <item itemvalue="Application.Laborator2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,7 @@
       <workItem from="1773647162360" duration="2700000" />
       <workItem from="1773727485726" duration="6906000" />
       <workItem from="1774307760714" duration="9373000" />
-      <workItem from="1774902608022" duration="4326000" />
+      <workItem from="1774902608022" duration="8786000" />
     </task>
     <task id="LOCAL-00001" summary="Laborator 2">
       <option name="closed" value="true" />
@@ -235,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774337164485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tema Casa Laborator 4">
+      <option name="closed" value="true" />
+      <created>1774909973812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774909973813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +275,7 @@
     <MESSAGE value="Tema Casa Laborator 2" />
     <MESSAGE value="Tema Casa Laborator 3" />
     <MESSAGE value="Laborator 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laborator 4" />
+    <MESSAGE value="Tema Casa Laborator 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema Casa Laborator 4" />
   </component>
 </project>
