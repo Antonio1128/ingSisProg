@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Casa Laborator 4">
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/IntCalculator.java" afterDir="false" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Laborator 5">
+      <change afterPath="$PROJECT_DIR$/src/Laborator1/StudentBursieri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator1/applab5_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator1/bursieri_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/ACalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/DoubleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/Lab5adv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/NewIntCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +75,10 @@
     "Application.Lab2.Main.executor": "Run",
     "Application.Lab2.executor": "Run",
     "Application.Lab3.executor": "Run",
+    "Application.Lab5adv.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.applab4_2.executor": "Run",
+    "Application.applab5_3.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,6 +89,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/facultate/ing sisteme de prog/lab/ingSis/src/Laborator5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +101,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\src\Laborator5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\src\Laborator1" />
     </key>
@@ -99,7 +111,7 @@
       <recent name="Laborator1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppLab5">
+  <component name="RunManager" selected="Application.applab5_3">
     <configuration name="AppLab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laborator4.AppLab4" />
       <module name="ingSis" />
@@ -126,23 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Laborator3.Lab3" />
+    <configuration name="Lab5adv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator5.advanced.Lab5adv" />
       <module name="ingSis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Laborator3.*" />
+          <option name="PATTERN" value="Laborator5.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Laborator1.Main" />
-      <module name="ingSis" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="applab5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator1.applab5_3" />
+      <module name="ingSis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Laborator1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.applab5_3" />
+        <item itemvalue="Application.Lab5adv" />
         <item itemvalue="Application.AppLab5" />
         <item itemvalue="Application.applab4_2" />
         <item itemvalue="Application.AppLab4" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lab3" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +191,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -192,7 +208,8 @@
       <workItem from="1773647162360" duration="2700000" />
       <workItem from="1773727485726" duration="6906000" />
       <workItem from="1774307760714" duration="9373000" />
-      <workItem from="1774902608022" duration="8786000" />
+      <workItem from="1774902608022" duration="10611000" />
+      <workItem from="1775520598327" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Laborator 2">
       <option name="closed" value="true" />
@@ -242,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774909973813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Laborator 5">
+      <option name="closed" value="true" />
+      <created>1774937901586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774937901586</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +301,7 @@
     <MESSAGE value="Tema Casa Laborator 3" />
     <MESSAGE value="Laborator 4" />
     <MESSAGE value="Tema Casa Laborator 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema Casa Laborator 4" />
+    <MESSAGE value="Laborator 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laborator 5" />
   </component>
 </project>

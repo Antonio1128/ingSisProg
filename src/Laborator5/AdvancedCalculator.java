@@ -10,7 +10,7 @@ public class AdvancedCalculator extends IntCalculator {
         super(state);
     }
 
-    public AdvancedCalculator didvide(int value)
+    public AdvancedCalculator divide(int value)
     {
         if(value!=0)
         {
@@ -30,7 +30,7 @@ public class AdvancedCalculator extends IntCalculator {
         setState((int) pow(getState(), value));
         return this;
     }
-    public AdvancedCalculator nthRoot(int n) {
+    public AdvancedCalculator rdcl(int n) {
         if (getState() < 0) {
             System.out.println("eroare <0");
             return this;
