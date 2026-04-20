@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Laborator 5">
-      <change afterPath="$PROJECT_DIR$/src/Laborator1/StudentBursieri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator1/applab5_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator1/bursieri_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/ACalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/DoubleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/Lab5adv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator5/advanced/NewIntCalculator.java" afterDir="false" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 5">
+      <change afterPath="$PROJECT_DIR$/src/Laborator1/AplicatieCuBursa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator1/AplicatieCuBursaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator5/AdvancedCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator5/AppLab5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator1/StudentBursieri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/StudentBursieri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator5/advanced/DoubleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator5/advanced/DoubleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,29 +74,39 @@
     "Application.Main.executor": "Run",
     "Application.applab4_2.executor": "Run",
     "Application.applab5_3.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AplicatieCuBursaTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/facultate/ing sisteme de prog/lab/ingSis/src/Laborator5",
+    "last_opened_file_path": "D:/facultate/ing sisteme de prog/lab/ingSis/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/facultate/ing sisteme de prog/lab/ingSis/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\test" />
       <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\src\Laborator5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -111,20 +116,7 @@
       <recent name="Laborator1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.applab5_3">
-    <configuration name="AppLab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Laborator4.AppLab4" />
-      <module name="ingSis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Laborator4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AplicatieCuBursaTest">
     <configuration name="AppLab5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laborator5.AppLab5" />
       <module name="ingSis" />
@@ -177,13 +169,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AplicatieCuBursaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingSis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Laborator1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Laborator1" />
+      <option name="MAIN_CLASS_NAME" value="Laborator1.AplicatieCuBursaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AplicatieCuBursaTest" />
         <item itemvalue="Application.applab5_3" />
         <item itemvalue="Application.Lab5adv" />
         <item itemvalue="Application.AppLab5" />
         <item itemvalue="Application.applab4_2" />
-        <item itemvalue="Application.AppLab4" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774937901586</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tema Laborator 5">
+      <option name="closed" value="true" />
+      <created>1775521867627</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775521867627</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +317,7 @@
     <MESSAGE value="Laborator 4" />
     <MESSAGE value="Tema Casa Laborator 4" />
     <MESSAGE value="Laborator 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laborator 5" />
+    <MESSAGE value="Tema Laborator 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema Laborator 5" />
   </component>
 </project>

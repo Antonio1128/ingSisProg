@@ -24,9 +24,10 @@ public class StudentBursieri extends Student {
 
 
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof StudentBursieri)) return false;
-        return super.equals(o);
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        StudentBursieri that = (StudentBursieri) o;
+        return Double.compare(cuantumBursa, that.cuantumBursa) == 0;
     }
 
 

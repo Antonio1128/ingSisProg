@@ -6,7 +6,7 @@ public class DoubleCalculator extends ACalculator {
         this.state = initialValue;
     }
 
-    @Override
+
     protected void init() {
         this.state = 0.0;
     }
