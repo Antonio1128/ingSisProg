@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 7">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/SparseBitSet_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_5_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_full_5_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/xmlbeans_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bursieri_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-5.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-examples-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-excelant-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-javadoc-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-ooxml-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-ooxml-5.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-ooxml-full-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-ooxml-lite-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/poi-scratchpad-5.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/AplicatieCuBursa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/AplicatieCuBursaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/StudentBursieri.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab4_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab5_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/bursieri_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/note_anon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/AdvancedCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/AppLab5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/IntCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/advanced/ACalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/advanced/DoubleCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/advanced/Lab5adv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator5/advanced/NewIntCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ingSis/bursieri_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator8/StudentExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bursieri_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laborator8_input.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingSis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ingSis.iml" afterDir="false" />
-    </list>
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -342,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777326300938</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tema Laborator 8">
+      <option name="closed" value="true" />
+      <created>1777895735849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777895735849</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +343,8 @@
     <MESSAGE value="Tema Laborator 5" />
     <MESSAGE value="Tema Laborator 6" />
     <MESSAGE value="Tema Laborator 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema Laborator 7" />
+    <MESSAGE value="Tema Laborator 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema Laborator 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
