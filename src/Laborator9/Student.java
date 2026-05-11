@@ -1,4 +1,4 @@
-package Laborator1;
+package Laborator9;
 
 import java.util.Objects;
 
@@ -30,12 +30,13 @@ public class Student extends Object {
         return nrMatricol;
     }
 
-    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu)
+    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu, float nota)
     {
         this.nrMatricol = nrMatricol;
         this.prenume = prenume;
         this.nume = nume;
         this.formatiedeStudiu = formatiedeStudiu;
+        this.nota=nota;
 
     }
     public String toString() {

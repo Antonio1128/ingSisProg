@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 8" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 8">
+      <change afterPath="$PROJECT_DIR$/src/Laborator9/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator9/lab9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab4_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator1/applab4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/applab4_2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +79,7 @@
     "Application.Main.executor": "Run",
     "Application.applab4_2.executor": "Run",
     "Application.applab5_3.executor": "Run",
+    "Application.lab9.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AplicatieCuBursaTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -112,10 +122,11 @@
       <recent name="D:\facultate\ing sisteme de prog\lab\ingSis\src\Laborator1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Laborator9" />
       <recent name="Laborator1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Laborator8.Main">
+  <component name="RunManager" selected="Application.lab9">
     <configuration name="AplicatieCuBursa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laborator1.AplicatieCuBursa" />
       <module name="ingSis" />
@@ -155,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="applab5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Laborator1.applab5_3" />
+    <configuration name="lab9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator9.lab9" />
       <module name="ingSis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Laborator1.*" />
+          <option name="PATTERN" value="Laborator9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab9" />
         <item itemvalue="Application.Laborator8.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AplicatieCuBursa" />
         <item itemvalue="JUnit.AplicatieCuBursaTest" />
-        <item itemvalue="Application.applab5_3" />
       </list>
     </recent_temporary>
   </component>

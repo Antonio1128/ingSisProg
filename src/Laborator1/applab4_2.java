@@ -19,8 +19,8 @@ public class applab4_2 {
                 String prenume = parti[1];
                 String nume    = parti[2];
                 String grupa   = parti[3];
-                Student s = new Student(matricol, prenume, nume, grupa);
-                studenti.put(parti[0], s);
+              //  Student s = new Student(matricol, prenume, nume, grupa);
+               // studenti.put(parti[0], s);
             }
         } catch (Exception e) {
             System.out.println("Eroare: " + e.getMessage());
