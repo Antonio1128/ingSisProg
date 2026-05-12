@@ -57,7 +57,7 @@ public class lab9 {
 
         List<String> lungi = cuvinte.stream()
                 .filter(s -> s.length() >= 5)
-                .peek(s -> {}) // procesare interna
+                .peek(s -> {})
                 .collect(Collectors.toList());
         System.out.println("a) auvinte >= 5 caractere: " + lungi + " (total: " + lungi.size() + ")");
 

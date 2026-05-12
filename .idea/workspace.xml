@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 8">
-      <change afterPath="$PROJECT_DIR$/src/Laborator9/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laborator9/lab9.java" afterDir="false" />
+    <list default="true" id="f2c7b209-af25-4099-90d4-b404d05ecb00" name="Changes" comment="Tema Laborator 9">
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/AplicatieCuStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/Exporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/IStudentiExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/StudentiInConsola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laborator10/StudentiInFisierText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator1/applab4_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ingSis/Laborator8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ingSis/Laborator8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laborator1/applab4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator1/applab4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator9/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator9/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laborator9/lab9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laborator9/lab9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +71,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AplicatieCuBursa.executor": "Run",
+    "Application.AplicatieCuStrategy.executor": "Run",
     "Application.AppLab4.executor": "Run",
     "Application.AppLab5.executor": "Run",
     "Application.Lab2.Main.executor": "Run",
@@ -126,13 +129,26 @@
       <recent name="Laborator1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab9">
+  <component name="RunManager" selected="Application.AplicatieCuStrategy">
     <configuration name="AplicatieCuBursa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laborator1.AplicatieCuBursa" />
       <module name="ingSis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Laborator1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AplicatieCuStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Laborator10.AplicatieCuStrategy" />
+      <module name="ingSis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Laborator10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,28 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AplicatieCuBursaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ingSis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Laborator1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Laborator1" />
-      <option name="MAIN_CLASS_NAME" value="Laborator1.AplicatieCuBursaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AplicatieCuStrategy" />
         <item itemvalue="Application.lab9" />
         <item itemvalue="Application.Laborator8.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AplicatieCuBursa" />
-        <item itemvalue="JUnit.AplicatieCuBursaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777895735849</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tema Laborator 9">
+      <option name="closed" value="true" />
+      <created>1778530133860</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778530133862</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +364,8 @@
     <MESSAGE value="Tema Laborator 6" />
     <MESSAGE value="Tema Laborator 7" />
     <MESSAGE value="Tema Laborator 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema Laborator 8" />
+    <MESSAGE value="Tema Laborator 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema Laborator 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

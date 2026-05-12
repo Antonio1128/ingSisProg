@@ -1,4 +1,4 @@
-package Laborator9;
+package Laborator10;
 
 import java.util.Objects;
 
@@ -7,12 +7,12 @@ public class Student extends Object {
     private String prenume;
     private String nume;
     private String formatiedeStudiu;
-    private float nota;
+    private double nota;
 
 
 
 
-    public float getNota(){return nota;}
+    public double getNota(){return nota;}
 
     public String getPrenume() {
         return prenume;
@@ -30,7 +30,7 @@ public class Student extends Object {
         return nrMatricol;
     }
 
-    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu, float nota)
+    public Student(int nrMatricol, String prenume, String nume, String formatiedeStudiu, double nota)
     {
         this.nrMatricol = nrMatricol;
         this.prenume = prenume;
@@ -39,7 +39,7 @@ public class Student extends Object {
         this.nota=nota;
 
     }
-
+ 
     public String toString() {
         return nrMatricol + " " + prenume + " " + nume + " " + formatiedeStudiu+" "+nota;
     }
